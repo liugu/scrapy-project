@@ -5,6 +5,8 @@
 import scrapy
 import time
 from www_zhipin_com.items import WwwZhipinComItem
+
+
 class ZhipinSpider(scrapy.Spider):
     # spider的名字定义了Scrapy如何定位(并初始化)spider，所以其必须是唯一的。 不过您可以生成多个相同的spider实例(instance)，这没有任何限制。 name是spider最重要的属性，而且是必须的
     name = 'zhipin'
