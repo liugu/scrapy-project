@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-# @author: Tele
-# @Time    : 2019/3/24 0024 下午 12:56
+
 import re
 import json
 import requests
